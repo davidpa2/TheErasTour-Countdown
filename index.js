@@ -1,6 +1,6 @@
 document.addEventListener('DOMContentLoaded', () => {
-    // const targetDate = new Date('May 30, 2024 00:00:00');
-    const targetDate = new Date('May 22, 2024 20:46:00');
+    const targetDate = new Date('May 30, 2024 00:00:00');
+    // const targetDate = new Date('May 22, 2024 20:46:00');
 
     const spanDays = document.querySelector('span#days');
     const spanHours = document.querySelector('span#hours');
