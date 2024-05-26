@@ -1,6 +1,6 @@
 document.addEventListener('DOMContentLoaded', () => {
     const targetDate = new Date('May 30, 2024 00:00:00');
-    // const targetDate = new Date('May 22, 2024 20:46:00');
+    // const targetDate = new Date('May 26, 2024 20:23:30');
 
     const spanDays = document.querySelector('span#days');
     const spanHours = document.querySelector('span#hours');
@@ -45,7 +45,7 @@ document.addEventListener('DOMContentLoaded', () => {
                 console.log(item.textContent);
                 item.textContent = "THE ERAS TOUR";
             }
-        })
+        });
 
         let timerP = document.getElementById("timerP");
         timerP.setAttribute("class", "hideElement");
