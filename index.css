@@ -53,7 +53,7 @@ h3 {
 }
 
 #timerP {
-    font-size: 20px;
+    font-size: 19px;
 }
 
 #timerP span {
@@ -149,7 +149,7 @@ body.dark {
 
     img {
         height: 70vw;
-        margin-top: 5rem;
+        margin-top: 4rem;
     }
 
     .infoDiv {
