@@ -1,6 +1,6 @@
 document.addEventListener('DOMContentLoaded', () => {
     const targetDate = new Date('May 30, 2024 00:00:00');
-    // const targetDate = new Date('May 26, 2024 20:23:30');
+    // const targetDate = new Date('May 28, 2024 21:23:30');
 
     const spanDays = document.querySelector('span#days');
     const spanHours = document.querySelector('span#hours');
@@ -49,15 +49,12 @@ document.addEventListener('DOMContentLoaded', () => {
 
         let timerP = document.getElementById("timerP");
         timerP.setAttribute("class", "hideElement");
-        // timerP.replaceChildren("Ha llegado el día");
         
         let simpleTitle = document.getElementById("simpleTitle");
         simpleTitle.setAttribute("class", "hideElement");
 
         let dreamP = document.getElementById("dreamP");
         dreamP.textContent = "No puede ser, esto es increíble... ¡Ha llegado el día!"
-        // timerP.replaceChildren("Ha llegado el día");
-        // dreamP.setAttribute("class", "hideElement");
     }
 
     function loadFireworks() {
